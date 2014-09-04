@@ -1,3 +1,4 @@
+
 Design Document
 ===============
 
@@ -6,7 +7,7 @@ Ready2Serve POS
 
 Table of Contents
 =================
-
+[TOC]
 
 ## Entity Relationship Diagram##
 
