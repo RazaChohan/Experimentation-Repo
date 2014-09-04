@@ -1,3 +1,4 @@
+<<<<<<< HEAD
       * [Entity Relationship Diagram](#entity-relationship-diagram)
       * [Database Schema](#database-schema)
       * [Use Case Diagram](#use-case-diagram)
@@ -43,6 +44,9 @@
       * [Use Case 13 (View Orders)](#use-case-13-(view-orders))
       * [View Orders Activity Diagram](#view-orders-activity-diagram)
    Design Document
+=======
+Design Document
+>>>>>>> b1df4faafbbc825b4efee9f55e5ea624f266b09b
 ===============
 
 Ready2Serve POS
@@ -465,4 +469,7 @@ Table of Contents
 
 ####View Orders Activity Diagram
 ![enter image description here](https://raw.github.com/RazaChohan/ReadytoServe-POS/development/Project%20Documentation/Design%20Document/Diagrams/Activity/View%20Orders.png)
+<<<<<<< HEAD
 
+=======
+>>>>>>> b1df4faafbbc825b4efee9f55e5ea624f266b09b
