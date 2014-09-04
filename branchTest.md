@@ -1,4 +1,5 @@
 
+
 Design Document
 ===============
 
@@ -13,10 +14,8 @@ Table of Contents
 
 ![enter image description here](https://raw.github.com/RazaChohan/ReadytoServe-POS/development/Project%20Documentation/Design%20Document/Diagrams/Extended-ERD.png)
 
+## Database Schema ##
 
 
-|                  | ASCII                        | HTML              |
- ----------------- | ---------------------------- | ------------------
-| Single backticks | `'Isn't this fun?'`            | 'Isn't this fun?' |
-| Quotes           | `"Isn't this fun?"`            | "Isn't this fun?" |
-| Dashes           | `-- is en-dash, --- is em-dash` | -- is en-dash, --- is em-dash |
+
+> Written with [StackEdit](https://stackedit.io/).
