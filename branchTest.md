@@ -1,3 +1,4 @@
+* [Table of contents]     
       * [Entity Relationship Diagram](#entity-relationship-diagram)
       * [Database Schema](#database-schema)
       * [Use Case Diagram](#use-case-diagram)
