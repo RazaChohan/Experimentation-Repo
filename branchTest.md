@@ -1,4 +1,25 @@
+#Table of Contents
 
+      * [Entity Relationship Diagram](#entity-relationship-diagram)
+      * [Database Schema](#database-schema)
+      * [Use Case Diagram](#use-case-diagram)
+      * [High Level Use Cases](#high-level-use-cases)
+      * [Use Case 1 (Authenticate User)](#use-case-1-(authenticate-user))
+      * [Use Case 2 (Place Order)](#use-case-2-(place-order))
+      * [Use Case 3 (Confirm Order)](#use-case-3-(confirm-order))
+      * [Use Case 4 (Cancel Order)](#use-case-4-(cancel-order))
+      * [Use Case 5 (Add order line Item)](#use-case-5-(add-order-line-item))
+      * [Use Case 6 (Edit order line Item)](#use-case-6-(edit-order-line-item))
+      * [Use Case 7 (Delete order line Item)](#use-case-7-(delete-order-line-item))
+      * [Use Case 8 (Manage Products)](#use-case-8-(manage-products))
+      * [Use Case 9 (Add Product)](#use-case-9-(add-product))
+      * [Use Case  10 (Update Product)](#use-case--10-(update-product))
+      * [Use Case 11 (Delete Product)](#use-case-11-(delete-product))
+      * [Use Case 12 (Edit Account Info)](#use-case-12-(edit-account-info))
+      * [Use Case 13 (View Orders)](#use-case-13-(view-orders))
+      * [Expanded Use Cases](#expanded-use-cases)
+      * [Use Case 1 (Authenticate User)](#use-case-1-(authenticate-user))
+      * [Authenticate user Activity Diagram](#authenticate-user-activity-diagram)
 
 
 Design Document
