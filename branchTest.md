@@ -4,20 +4,20 @@
       * [Use Case Diagram](#use-case-diagram)
       * [High Level Use Cases](#high-level-use-cases)
       * [Use Case 1 (Authenticate User)](#use-case-1-authenticate-user)
-      * [Use Case 2 (Place Order)](#use-case-2-(place-order))
-      * [Use Case 3 (Confirm Order)](#use-case-3-(confirm-order))
-      * [Use Case 4 (Cancel Order)](#use-case-4-(cancel-order))
-      * [Use Case 5 (Add order line Item)](#use-case-5-(add-order-line-item))
-      * [Use Case 6 (Edit order line Item)](#use-case-6-(edit-order-line-item))
-      * [Use Case 7 (Delete order line Item)](#use-case-7-(delete-order-line-item))
-      * [Use Case 8 (Manage Products)](#use-case-8-(manage-products))
-      * [Use Case 9 (Add Product)](#use-case-9-(add-product))
-      * [Use Case  10 (Update Product)](#use-case--10-(update-product))
-      * [Use Case 11 (Delete Product)](#use-case-11-(delete-product))
-      * [Use Case 12 (Edit Account Info)](#use-case-12-(edit-account-info))
-      * [Use Case 13 (View Orders)](#use-case-13-(view-orders))
+      * [Use Case 2 (Place Order)](#use-case-2-place-order)
+      * [Use Case 3 (Confirm Order)](#use-case-3-confirm-order)
+      * [Use Case 4 (Cancel Order)](#use-case-4-cancel-order)
+      * [Use Case 5 (Add order line Item)](#use-case-5-add-order-line-item)
+      * [Use Case 6 (Edit order line Item)](#use-case-6-edit-order-line-item)
+      * [Use Case 7 (Delete order line Item)](#use-case-7-delete-order-line-item)
+      * [Use Case 8 (Manage Products)](#use-case-8-manage-products)
+      * [Use Case 9 (Add Product)](#use-case-9-add-product)
+      * [Use Case  10 (Update Product)](#use-case--10-update-product)
+      * [Use Case 11 (Delete Product)](#use-case-11-delete-product)
+      * [Use Case 12 (Edit Account Info)](#use-case-12-edit-account-info)
+      * [Use Case 13 (View Orders)](#use-case-13-view-orders)
       * [Expanded Use Cases](#expanded-use-cases)
-      * [Use Case 1 (Authenticate User)](#use-case-1-(authenticate-user))
+      * [Use Case 1 (Authenticate User)](#use-case-1-authenticate-user)
       * [Authenticate user Activity Diagram](#authenticate-user-activity-diagram)
 
 
@@ -51,35 +51,35 @@ Table of Contents
 
 **Description:** All above mentioned actors will login to system after validating their unique username and password.
 
-### Use Case #2 (Place Order)
+## Use Case #2 Place Order
 **Actor:** Salesperson
 
 **Type:** Primary and essential
 
 **Description:** Salesperson will place the order on the system by adding the items or deals asked by the customer in his/her specific order. Moreover salesperson can delete an item or deal, edit an existing order line item in order and can eventually confirms or cancels the order. 
 
-###Use Case #3 (Confirm Order) 
+##Use Case #3 Confirm Order 
 **Actor:** System
 
 **Type:** Secondary and essential
 
 **Description:** While placing the order the salesperson selects to confirm order. After this salesperson will not be able to edit the order. System is actually the initiator of this use case because it is initiated in the result of user selecting (initiating) to confirm his/her order during place order use case.
 
-###Use Case #4 (Cancel Order)
+##Use Case #4 Cancel Order
 **Actors:**  System
 
 **Type:** Secondary and optional
 
 **Description:** While placing the order the salesperson selects to cancel order. After this current order will be cancelled or removed. System is actually the initiator of this use case because it is initiated in the result of user selecting (initiating) to confirm his/her order in place order use case.
 
-### Use Case #5 (Add order line Item)
+## Use Case #5 Add order line Item
 **Actors:** System
 
 **Type:** Secondary and essential
 
 **Description:** While placing the order the salesperson selects to add an order line item that could be an item or a deal. System is actually the initiator of this use case because it is initiated in the result of user selecting (initiating) to add an item/deal in a particular order.
 
-###Use Case #6 (Edit order line Item)
+##Use Case #6 Edit order line Item
 **Actors:** System
 
 **Type:** Secondary and optional
@@ -93,42 +93,42 @@ Table of Contents
 
 **Description:** While placing the order the salesperson selects to delete an existing order line item in an order that could be an item or a deal. System is actually the initiator of this use case because it is initiated in the result of user selecting to add an item/deal in a particular order.
 
-###Use Case #8 (Manage Products)
+##Use Case #8 Manage Products
 **Actors:** Administrator
 
 **Type:** Primary and optional
 
 **Description:** Admin can Add, Update/edit and delete products from the system. The initiator of this use case is administrator.
 
-###Use Case #9 (Add Product)
+##Use Case #9 Add Product
 **Actors:** System
 
 **Type:** Secondary and optional
 
 **Description:** While managing the products in the system the administrator can add a particular product. The initiator of this use case is system because it is initiated in the result of user managing the products in the system. 
 
-###Use Case  #10 (Update Product)
+##Use Case  #10 Update Product
 **Actors:** System
 
 **Type:** Secondary and optional
 
 **Description:** While managing the products in the system the administrator can update or edit a particular product. The initiator of this use case is system because it is initiated in the result of user managing the products in the system. 
 
-###Use Case #11 (Delete Product)
+##Use Case #11 Delete Product
 **Actors:** System
 
 **Type:** Secondary and optional
 
 **Description:** While managing the products in the system the administrator can delete a particular product from the system. The initiator of this use case is system because it is initiated in the result of user managing the products in the system. 
 
-###Use Case #12 (Edit Account Info)
+##Use Case #12 Edit Account Info
 **Actors:** Administrator
 
 **Type:** Primary and essential
 
 **Description:** Admin or Salesperson can change their information. Initiator of this system can be any user (Salesperson or Admin). 
 
-###Use Case #13 (View Orders)
+##Use Case #13 View Orders
 **Actors:** Administrator
 
 **Type:** Primary and essential
@@ -138,7 +138,7 @@ Table of Contents
 
 ## Expanded Use Cases ##
 
-###Use Case #1 (Authenticate User)
+##Use Case #1 Authenticate User
 
 |                  | Authenticate the user| 
  -------------- | ---------------------------------- |
