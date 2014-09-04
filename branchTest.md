@@ -4,7 +4,7 @@
       * [Use Case Diagram](#use-case-diagram)
       * [High Level Use Cases](#high-level-use-cases)
       * [Use Case 1 (Authenticate User)](#use-case-1-authenticate-user)
-      * [Use Case 2 (Place Order)](#use-case-2-(place-order))
+      * [Use Case 2 (Place Order)](#use-case-2-place-order)
       * [Use Case 3 (Confirm Order)](#use-case-3-(confirm-order))
       * [Use Case 4 (Cancel Order)](#use-case-4-(cancel-order))
       * [Use Case 5 (Add order line Item)](#use-case-5-(add-order-line-item))
@@ -65,7 +65,7 @@ Table of Contents
 
 ## High Level Use Cases ##
 
-##Use Case #1 Authenticate User
+###Use Case #1 (Authenticate User)
 
 **Actors:** Administrator, Salesperson 
 
