@@ -117,3 +117,28 @@ Table of Contents
 
 
 ## Expanded Use Cases ##
+
+###Use Case #1 (Authenticate User)
+
+|                  | Authenticate the user| 
+ -------------- | ---------------------------------- |
+| **Scope** | `Ready2Serve POS (System under development)`          |
+| **Level** |`User Goal`|
+| **Primary Actor**| `User (Administrator, Salesperson)` |
+| **Stakeholders-and their Interests** | `Administrator , Salesperson`|
+ ||`User: User wants to login to the system and use it`|
+| **Pre-Condition** |`User must already be registered within the system.`|
+| **Success Guarantee**| `1) User logged in successfully.`
+||	`2) User granted access according to the type of user.` |
+| **Main-Success Scenario** | `1.User starts the application.`|
+||`2.User enters Username and Password.`|
+||`3.User Presses Enter button.`|
+||`4.User is logged in.`||
+|||
+| **Extensions (Alternative Flows)** |`3a. Login failed`
+||`1. User entered invalid Username and Password`|
+||`a.	User enters the correct Username and Password and goes to step 3.`||
+| **Frequency of Use**| `This use case has high frequency of occurrence.` |
+
+####Authenticate user Activity Diagram
+![enter image description here](https://raw.github.com/RazaChohan/ReadytoServe-POS/development/Project%20Documentation/Design%20Document/Diagrams/Activity/Authenticate%20User.png)
