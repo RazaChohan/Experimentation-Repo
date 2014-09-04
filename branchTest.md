@@ -3,7 +3,7 @@
       * [Database Schema](#database-schema)
       * [Use Case Diagram](#use-case-diagram)
       * [High Level Use Cases](#high-level-use-cases)
-      * [Use Case 1 (Authenticate User)](#use-case-1-(authenticate-user))
+      * [Use Case 1 (Authenticate User)](#use-case-#1-(authenticate-user))
       * [Use Case 2 (Place Order)](#use-case-2-(place-order))
       * [Use Case 3 (Confirm Order)](#use-case-3-(confirm-order))
       * [Use Case 4 (Cancel Order)](#use-case-4-(cancel-order))
