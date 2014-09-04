@@ -43,7 +43,9 @@
       * [Edit Account Info Activity Diagram](#edit-account-info-activity-diagram)
       * [Use Case 13 (View Orders)](#use-case-13-view-orders)
       * [View Orders Activity Diagram](#view-orders-activity-diagram)
-   Design Document
+
+      
+Design Document
 ===============
 
 Ready2Serve POS
