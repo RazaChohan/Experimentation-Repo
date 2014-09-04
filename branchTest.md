@@ -65,7 +65,7 @@ Table of Contents
 
 ## High Level Use Cases ##
 
-###Use Case #1 (Authenticate User)
+##Use Case #1 (Authenticate User)
 
 **Actors:** Administrator, Salesperson 
 
