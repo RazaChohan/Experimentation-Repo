@@ -1,5 +1,5 @@
-| **Pre-requisite**| **Acceptance criteria**|**Status**|
-| ------------- |:-------------|:-----------:|
+|**S.No.**| **Pre-requisite**| **Acceptance criteria**|**Status**|
+|---------|:---------------- |:-------------|:-----------:|
 
 
 
