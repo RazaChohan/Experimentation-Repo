@@ -6,12 +6,19 @@
 |- admin adds the |ensure the success message is||
 |      Valid item name|displayed ||
 |      Valid unit price|AND prompt to add more item.||
-||||
-||||
-||||
+|- admin adds the |ensure the rejection message is||
+|Valid item name|displayed ||
+| InValid unit price|AND prompt to reEnter.||
 ||||
 
 
       	
  
+
+
+      
+     
+
+ 
+
 
