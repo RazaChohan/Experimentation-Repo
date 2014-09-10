@@ -50,7 +50,7 @@ Date 10-september-2014
 
 
 
-####**1.0	Introduction**
+####**Introduction**
  This document contains the system requirements for Ready2Serve POS. These requirements have been derived from several sources, including meetings with client, demos given to the client by Coeus Solutions .etc. Ready2Serve POS is a console based application, it is intended to be used by the salesman and administrator in order to place orders and manage all items and deals.  
 ####**2.0	Business Overview**
 From Business point of view this system will help to improve revenue of the restaurant “Ready2Serve” by automating many important tasks of the restaurant’s drive through. There is no dine in and delivery facilities available. So, the only way to take food is through the window at the drive through passage. And obviously that will be the single point where the customer load would be so; there should be an efficient system which handles all the purchase. 
