@@ -469,6 +469,7 @@ Implements SQL functions using a highly optimized class library that should be a
 For the entity relationship diagram we have used the Chen one model as a standard. And we have used MS Visio to design that.
 It is the logical flow of our system just at the abstract level.
  
+ ![enter image description here](https://raw.github.com/RazaChohan/Experimentation-Repo/sanaNewBranch/diagrams/Database%20Schema%20Diagram.png)
 
 Important point about this ERD is that there is a week entity “OrderLineItem” that’s why it has marked as double lined entity.
 
