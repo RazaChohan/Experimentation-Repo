@@ -16,12 +16,12 @@ Date 10-september-2014
 
 
 ####**Table of Contents**
-Table of Contents	iii
-1.0	 Introduction	1
-2.0	  Business Overview	1
-3.0	  Development Environment	1
-4.0	  System Specifications	1\l "
-4.1	  Sign In	1
+Table of Contents	iii              <br/>
+1.0	 Introduction	1                <br/>
+2.0	  Business Overview	1         <br/>
+3.0	  Development Environment	1 <br/>
+4.0	  System Specifications	1\l "      <br/>
+4.1	  Sign In	1                  <br/>
 4.2	  Add/place order	2
 4.3	  View order and make changes	3
 4.3.1 Change Quantity	3
