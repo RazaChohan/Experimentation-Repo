@@ -475,7 +475,7 @@ It is the logical flow of our system just at the abstract level.
 Important point about this ERD is that there is a week entity “OrderLineItem” that’s why it has marked as double lined entity.
 
 
-#####**5.2	Database Schema**
+#####**5.2 Database Schema**
  
 Here is given all the tables which we will generate through a DBscript to store information about all related contents of the system.
 That script would be used by anyone to generate data base and its tables. 
