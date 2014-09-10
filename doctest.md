@@ -34,13 +34,13 @@ Date 10-september-2014
       * [**4.4.3	Deactivate Items or Deals**](#iv-d-c-deactivate-items-or-deals)
       * [**4.4.4	Change Price of Item or Deal**](#4.4.4iv-d-d-change-price-of-item-or-deal)
       * [**4.4.5	Change Name of Item or Deal**](#4.4.5iv-d-e-change-name-of-item-or-deal)
-      * [**4.5	View Orders**](#4.5iv-e-view-orders)
+      * [**4.5	View Orders**](#iv-e-view-orders)
       * [**4.5.1	View All Orders**](#iv-e-a-view-all-orders)
       * [**4.5.2	View Date Specific Orders**](#iv-e-b-view-date-specific-orders)
-      * [**4.6	Edit Profile**](#4.6	edit-profile)
-      * [**4.6.1	Change password**](#4.6.1	change-password)
-      * [** 4.6.2	Change username**](#4.6.2	change-username)
-      * [**4.7	Sign Out**](#4.7	sign-out)
+      * [**4.6	Edit Profile**](#iv-f-edit-profile)
+      * [**4.6.1	Change Password**](#iv-f-a-change-password)
+      * [** 4.6.2	Change Username**](#iv-f-b-change-username)
+      * [**4.7	Sign Out**](#iv-g-sign-out)
       * [**5.0	Database Analysis**](#v-database-analysis)
       * [**5.1	Entity Relationship Diagram**](#v-a-entity-relationship-diagram)
       * [**5.2 Database Schema**](#v-b-database-schema)
@@ -377,11 +377,11 @@ So that **I come to know about how many orders have been placed by the salesman 
 |5. |And admin does not mention FROM and TO dates|ensure the system load all the records of the current date in the form of pagination on the console.| |	
 
 #### (IV F) Edit Profile
-#### (IV F A)	Change password
- User story title: Change password
-As a salesman/admin 
-I want to change my current password of the system 
-So that my system get secured from unauthorized access
+#### (IV F A)	Change Password
+**User story title: Change password**
+As a **salesman/admin** 
+I want to **change my current password of the system** 
+So that **my system get secured from unauthorized access**
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
