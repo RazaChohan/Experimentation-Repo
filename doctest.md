@@ -6,7 +6,7 @@ Date 10-september-2014
 
 
 
-##**Project Requirement Document**
+##Project Requirement Document
 
 | Version |	Date |	Description |	Name	| Author |
 --------- | ---- | ----------- | ---- | ------ |
@@ -15,7 +15,7 @@ Date 10-september-2014
 
 
 
-####**Table of Contents**
+####Table of Contents
  * [Ready2Serve POS](#ready2serve-pos)
     * [Requirment Document](#requirment-document)
   * [**Project Requirement Document**](#**project-requirement-document**)
