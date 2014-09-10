@@ -31,9 +31,9 @@ Date 10-september-2014
       * [**4.4	Manage items and deals**](#iv-d-manage-items-and-deals)
       * [**4.4.1	Add items**](#iv-d-a-add-items)
       * [**4.4.2	Add deals**](#iv-d-b-add-deals)
-      * [**4.4.3	Deactivate/delete items or deals**](#iv-d-c-deactivate/delete-items-or-deals)
-      * [**4.4.4	Change price of item/deal**](#**4.4.4	change-price-of-item/deal**)
-      * [**4.4.5	Change name of item/deal**](#**4.4.5	change-name-of-item/deal**)
+      * [**4.4.3	Deactivate Items or Deals**](#iv-d-c-deactivate-items-or-deals)
+      * [**4.4.4	Change Price of Item or Deal**](#**4.4.4	change-price-of-item-or-deal**)
+      * [**4.4.5	Change Name of Item or Deal**](#**4.4.5	change-name-of-item-or-deal**)
       * [**4.5	View Orders**](#**4.5	view-orders**)
       * [**4.5.1	View All Orders**](#**4.5.1	view-all-orders**)
       * [**4.5.2	View Date Specific Orders**](#**4.5.2	view-date-specific-orders**)
@@ -274,7 +274,7 @@ so that **Items and deals could be stored in the system.**
 |         |    Valid Items for that deal          |                      | |
 |         |    InValid unit price	          |                      | |
 
-#### (IV D C) Deactivate/delete items or deals
+#### (IV D C) Deactivate Items or Deals
 **User story title: Deactivate items/deals **
 As an **administrator**
 I want to **Manage items and deals **
@@ -292,7 +292,7 @@ so that **Items and deals could be stored in the system.**
 |         |    InValid item/deal number	          |And prompt to reEnter | |  	
 
 
-#### (IV D D )	Change price of item/deal
+#### (IV D D )	Change Price of Item or Deal
 **User story title: Change item price**
 As an **administrator**
 I want to **Manage items and deals **
@@ -310,7 +310,7 @@ so that **Items and deals could be stored in the system.**
 |         |    InValid unit price	          |And prompt to reEnter | |	
 
 
-#### (IV D E)	Change name of item/deal
+#### (IV D E)	Change Name of Item or Deal
 **User story title:  Change item’s name**
 As an administrator
 I want to Manage items and deals 
