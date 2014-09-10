@@ -2,14 +2,14 @@
 ###Ready2Serve POS
 ###Requirement Document
 
-Date 10-september-2014
+Date 11-september-2014
 
 
 ##Project Requirement Document
 
 | Version |	Date |	Description |	Name	| Author |
 --------- | ---- | ----------- | ---- | ------ |
-| Draft 1.0 |	10-09-2014 |	The Requirement and Specification document for Ready2Serve	| Ready2Serve POS	| Coeus QA department |
+| Draft 1.0 |	11-09-2014 |	The Requirement and Specification document for Ready2Serve	| Ready2Serve POS	| Coeus QA department |
 
 
 
@@ -32,14 +32,14 @@ Date 10-september-2014
       * [**4.4.1	Add items**](#iv-d-a-add-items)
       * [**4.4.2	Add deals**](#iv-d-b-add-deals)
       * [**4.4.3	Deactivate Items or Deals**](#iv-d-c-deactivate-items-or-deals)
-      * [**4.4.4	Change Price of Item or Deal**](#4.4.4iv-d-d-change-price-of-item-or-deal)
-      * [**4.4.5	Change Name of Item or Deal**](#4.4.5iv-d-e-change-name-of-item-or-deal)
+      * [**4.4.4	Change Price of Item or Deal**](#iv-d-d-change-price-of-item-or-deal)
+      * [**4.4.5	Change Name of Item or Deal**](#iv-d-e-change-name-of-item-or-deal)
       * [**4.5	View Orders**](#iv-e-view-orders)
       * [**4.5.1	View All Orders**](#iv-e-a-view-all-orders)
       * [**4.5.2	View Date Specific Orders**](#iv-e-b-view-date-specific-orders)
       * [**4.6	Edit Profile**](#iv-f-edit-profile)
       * [**4.6.1	Change Password**](#iv-f-a-change-password)
-      * [** 4.6.2	Change Username**](#iv-f-b-change-username)
+      * [**4.6.2	Change Username**](#iv-f-b-change-username)
       * [**4.7	Sign Out**](#iv-g-sign-out)
       * [**5.0	Database Analysis**](#v-database-analysis)
       * [**5.1	Entity Relationship Diagram**](#v-a-entity-relationship-diagram)
