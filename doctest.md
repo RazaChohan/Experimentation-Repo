@@ -182,10 +182,10 @@ so that **I can generate an accurate order for the customer.**       <br/>
 |2. |The salesman enters the Invalid index no. of the item/deal|ensure the rejection message is displayed        | |
 |   |                                                          |AND prompts to reEnter                           | |	
 
-#### (IV D) Manage items and deals**
+#### (IV D) Manage items and deals
 **User story title: Manage items and deals**       <br/>
 As an **administrator**       <br/>
-I want to **Manage(add, edit, inactivate) items and deals **       <br/>
+I want to **Manage(add, edit, inactivate) items and deals**       <br/>
 so that **Items and deals could be stored in the system.**       <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
@@ -442,7 +442,7 @@ So that **my system get secured from unauthorized access**       <br/>
 
 ####  (IV G) Sign Out
 
-**User story title: sign out **       <br/>
+**User story title: sign out**       <br/>
 As a **salesman/admin**        <br/>
 I want to **sign out from the system**       <br/>
 So that **no any unauthorized person can use my account**       <br/>
