@@ -52,15 +52,15 @@ Table of Contents	iii              <br/>
  This document contains the system requirements for Ready2Serve POS. These requirements have been derived from several sources, including meetings with client, demos given to the client by Coeus Solutions .etc. Ready2Serve POS is a console based application, it is intended to be used by the salesman and administrator in order to place orders and manage all items and deals.  
 ####**2.0	Business Overview**
 From Business point of view this system will help to improve revenue of the restaurant “Ready2Serve” by automating many important tasks of the restaurant’s drive through. There is no dine in and delivery facilities available. So, the only way to take food is through the window at the drive through passage. And obviously that will be the single point where the customer load would be so; there should be an efficient system which handles all the purchase. 
-####**3.0	Development Environment**
+#### **3.0	Development Environment**
 **The tools and technology** which will be used for the development of this system: 
 * **PHP** as a programming language and **NetBeans** as an IDE for the coding. 
 * The server which we would use is **Apache**.
 * The database system which will be used for the application would be the **MySQL**. 
 * To design all the diagrams we have used **Visio 2013**.  <br/>
-####**4.0	System Specifications**
+#### **4.0	System Specifications**
 We have divided the Basic Flow of Ready2Serve POS in the following modules or specifications, let us evaluate them briefly through the concise description.  <br/>
-####**4.1	Sign In**
+#### **4.1	Sign In**
 
 **User story title: sign in**
 As a **salesman/admin** 
@@ -97,9 +97,9 @@ so that **I can use the fully functional system**
 
 ####**4.2	Add/place orders**
 **User story title: Place Order**
-As a **salesman** 
-I want **to place requested order for a customer** 
-so that **I can generate an order for the customer and system would save this record**
+As a **salesman**    <br/> 
+I want **to place requested order for a customer**     <br/>
+so that **I can generate an order for the customer and system would save this record**    <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
@@ -124,10 +124,10 @@ so that **I can generate an order for the customer and system would save this re
 	
 
 ####**4.3	View order and Make Changes**
-**User story title: View Order just requested by the customer**
-As a **salesman** 
-I want to **review the order and make changes in that requested order for a customer** 
-so that **I can generate an accurate order for the customer to avoid trouble in future.**
+**User story title: View Order just requested by the customer**    <br/>
+As a **salesman**     <br/>
+I want to **review the order and make changes in that requested order for a customer**     <br/>
+so that **I can generate an accurate order for the customer to avoid trouble in future.**    <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
@@ -137,10 +137,10 @@ so that **I can generate an accurate order for the customer to avoid trouble in 
 |1.       |The salesman just added an order line item|	ensure the system shows the proper menu for the different options of changes.	
 
 ####**4.3.1	Change Quantity**
-**User story title: Change of quantity for an order line item**
-As a **salesman** 
-I want to **make changes in the quantity of an order line item just requested by the customer** 
-so that **I can generate an accurate order for the customer to avoid trouble in future.**
+**User story title: Change of quantity for an order line item**    <br/>
+As a **salesman**     <br/>
+I want to **make changes in the quantity of an order line item just requested by the customer**     <br/>
+so that **I can generate an accurate order for the customer to avoid trouble in future.**    <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
@@ -154,10 +154,10 @@ so that **I can generate an accurate order for the customer to avoid trouble in 
 |         |                                            |AND prompts to reEnter	| |
 
 ####**4.3.2	Cancel an Order Line Item**
-**User story title: Cancel an order line item** 
-As a **salesman** 
-I want to **cancel an order line item from the order just requested by the customer** 
-so that **I can generate an accurate order for the customer to avoid trouble in future and system save this record**
+**User story title: Cancel an order line item**     <br/>
+As a **salesman**     <br/>
+I want to **cancel an order line item from the order just requested by the customer**     <br/>
+so that **I can generate an accurate order for the customer to avoid trouble in future and system save this record**    <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
@@ -169,10 +169,10 @@ so that **I can generate an accurate order for the customer to avoid trouble in 
 |   |                                                           |AND prompts to reEnter	||
 
 ####**4.3.3	Add an order line item**
-**User story title: Add an order line item in the order** 
-As a **salesman** 
-I want to **add more order lines item in the order just requested by the customer**
-so that **I can generate an accurate order for the customer.**
+**User story title: Add an order line item in the order**     <br/>
+As a **salesman**     <br/>
+I want to **add more order lines item in the order just requested by the customer**    <br/>
+so that **I can generate an accurate order for the customer.**    <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
@@ -186,10 +186,10 @@ so that **I can generate an accurate order for the customer.**
 |   |                                                          |AND prompts to reEnter                           | |	
 
 ####**4.4	Manage items and deals**
-**User story title: Manage items and deals**
-As an **administrator**
-I want to **Manage(add, edit, inactivate) items and deals **
-so that **Items and deals could be stored in the system.**
+**User story title: Manage items and deals**    <br/>
+As an **administrator**    <br/>
+I want to **Manage(add, edit, inactivate) items and deals **    <br/>
+so that **Items and deals could be stored in the system.**    <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
@@ -199,16 +199,16 @@ so that **Items and deals could be stored in the system.**
 |1.   |admin is on the main menu |ensure that the control goes to another menu where the different options .i.e add, delete, update are available.	| |
 
 ####**4.4.1	Add items** 
-User story title: Add items 
-As an administrator
-I want to add items in the database
-so that those specified items would store in the record of available items in the restaurant. 
+**User story title: Add items**    <br/>
+As an **administrator**    <br/>
+I want to **add items in the database**    <br/>
+so that **those specified items would store in the record of available items in the restaurant. **    <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
 |         |The admin is on the section to add new item details|**When** the user requests to add new item| |
 |         |**AND**                                |**Then** | |	
-|`````````|```````````````````````````````````````|`````````````````````````````````````|``````````|
+|||||
 |1.       |- admin adds the                       |ensure the success message is displayed | |
 |         |    Valid item name                    |AND prompt to add more item | |
 |         |    Valid unit price	                  |                            | |
@@ -228,15 +228,16 @@ so that those specified items would store in the record of available items in th
 
 
 ####**4.4.2	Add deals** 
-**User story title: Add deals**
-As an **administrator**
-I want to **Manage items and deals** 
-so that **Items and deals could be stored in the system.**
+**User story title: Add deals**    <br/>
+As an **administrator**    <br/>
+I want to **Manage items and deals**     <br/>
+so that **Items and deals could be stored in the system.**    <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
 |         |The admin is on the section to add new deal details|**When** the user requests to add new deal| |
 |         |**AND**                                |**Then**                             | |
+|||||
 |1.       |- admin adds the                       |ensure the success message is displayed  | |
 |         |    Valid deal name                    |AND prompt to add more deal | |	
 |         |    Valid Items for that deal          |                            | |
@@ -278,10 +279,10 @@ so that **Items and deals could be stored in the system.**
 |         |    InValid unit price	          |                      | |
 
 ####**4.4.3	Deactivate/delete items or deals**
-**User story title: Deactivate items/deals **
-As an **administrator**
-I want to **Manage items and deals **
-so that **Items and deals could be stored in the system.**
+**User story title: Deactivate items/deals **    <br/>
+As an **administrator**     <br/>
+I want to **Manage items and deals **    <br/>
+so that **Items and deals could be stored in the system.**    <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
@@ -295,10 +296,10 @@ so that **Items and deals could be stored in the system.**
 |         |    InValid item/deal number	          |And prompt to reEnter | |  	
 
 ####**4.4.4	Change price of item/deal**
-**User story title: Change item price**
-As an **administrator**
-I want to **Manage items and deals **
-so that **Items and deals could be stored in the system.**
+**User story title: Change item price**    <br/>
+As an **administrator**    <br/>
+I want to **Manage items and deals **    <br/>
+so that **Items and deals could be stored in the system.**    <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
@@ -313,10 +314,10 @@ so that **Items and deals could be stored in the system.**
 
 
 ####**4.4.5	Change name of item/deal**
-User story title:  Change item’s name
-As an administrator
-I want to Manage items and deals 
-so that Items and deals could be stored in the system.
+**User story title:  Change item’s name**    <br/>
+As an **administrator**    <br/>
+I want to **Manage items and deals **    <br/>
+so that **Items and deals could be stored in the system.**    <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
@@ -331,10 +332,10 @@ so that Items and deals could be stored in the system.
 
 
 ####**4.5	View Orders**
-**User story title: View Orders**
-As an **administrator**
-I want to **View Orders details **
-So that **I come to know about how many orders have been placed by the salesman.**
+**User story title: View Orders**    <br/>
+As an **administrator**    <br/>
+I want to **View Orders details **    <br/>
+So that **I come to know about how many orders have been placed by the salesman.**    <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
@@ -344,10 +345,10 @@ So that **I come to know about how many orders have been placed by the salesman.
 |1.       |admin is on the main menu 	          |ensure that the control goes to another menu where the different options .i.e view all order, view date specific order are available.| |	
 
 ####**4.5.1	View All Orders** 
-**User story title: View All Orders**
-As an **administrator**
-I want to **View All Orders details **
-So that **I come to know that how many total orders till the current date have been placed by the salesman.**
+**User story title: View All Orders**    <br/>
+As an **administrator**    <br/>
+I want to **View All Orders details **    <br/>
+So that **I come to know that how many total orders till the current date have been placed by the salesman.**    <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
@@ -355,10 +356,10 @@ So that **I come to know that how many total orders till the current date have b
 | | | **Then** ensure the system load all the records in the form of pagination on the console	 | |
 
 ####**4.5.2	View Date Specific Orders**
-**User story title: View Orders**
-As an **administrator**
-I want to **view orders details, placed in between specific two dates  **
-So that **I come to know about how many orders have been placed by the salesman in that specific portion of time.**
+**User story title: View Orders**    <br/>
+As an **administrator**    <br/>
+I want to **view orders details, placed in between specific two dates  **    <br/>
+So that **I come to know about how many orders have been placed by the salesman in that specific portion of time.**    <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
@@ -380,10 +381,10 @@ So that **I come to know about how many orders have been placed by the salesman 
 
 ####**4.6	Edit Profile**
 ####**4.6.1	Change password**
- User story title: Change password
-As a salesman/admin 
-I want to change my current password of the system 
-So that my system get secured from unauthorized access
+**User story title: Change password**    <br/>
+As a **salesman/admin **    <br/>
+I want to **change my current password of the system **    <br/>
+So that **my system get secured from unauthorized access**    <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
@@ -412,10 +413,10 @@ So that my system get secured from unauthorized access
 
 
 ####** 4.6.2	Change username**
-**User story title: Change username**
-As a **salesman/admin** 
-I want to **change my current username of the system **
-So that **my system get secured from unauthorized access**
+**User story title: Change username**    <br/>
+As a **salesman/admin**     <br/>
+I want to **change my current username of the system **    <br/>
+So that **my system get secured from unauthorized access**    <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
@@ -445,10 +446,10 @@ So that **my system get secured from unauthorized access**
 
 ####**4.7	Sign Out**
 
-**User story title: sign out **
-As a **salesman/admin** 
-I want to **sign out from the system **
-So that **no any unauthorized person can use my account**
+**User story title: sign out **    <br/>
+As a **salesman/admin**     <br/>
+I want to **sign out from the system **    <br/>
+So that **no any unauthorized person can use my account**    <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
 |---------|:------------------------------------- |:------------------------------------|:--------:|
@@ -494,28 +495,28 @@ name         <br/>
 address      <br/>
 phone_number     <br/>
 person_type      <br/>
-**Order**
-order_id
-salesman_id
-order_datetime
-**Order_Line_Item**
-order_line_item_id
-order_id
-product_id
-unit_price
-quantity
-discount 
-**Product**
-product_id
-product_type
-is_product_available
-is_product_orderable
-product_description
-product_price
-**Product_Contains_Product**
-product_id
-contained_product_id
-quantity 
+**Order**           <br/>
+order_id           <br/>
+salesman_id           <br/>
+order_datetime           <br/>
+**Order_Line_Item**           <br/>
+order_line_item_id           <br/>
+order_id           <br/>
+product_id           <br/>
+unit_price           <br/>
+quantity           <br/>
+discount            <br/>
+**Product**           <br/>
+product_id           <br/>
+product_type           <br/>
+is_product_available           <br/>
+is_product_orderable           <br/>
+product_description           <br/>
+product_price           <br/>
+**Product_Contains_Product**           <br/>
+product_id           <br/>
+contained_product_id           <br/>
+quantity            <br/>
 
 
 **Note:**
