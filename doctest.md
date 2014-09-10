@@ -16,7 +16,36 @@ Date 10-september-2014
 
 
 ####**Table of Contents**
-
+ * [Ready2Serve POS](#ready2serve-pos)
+    * [Requirment Document](#requirment-document)
+  * [**Project Requirement Document**](#**project-requirement-document**)
+      * [**Table of Contents**](#**table-of-contents**)
+      * [**1.0	Introduction**](#**1.0	introduction**)
+      * [**2.0	Business Overview**](#**2.0	business-overview**)
+      * [**3.0	Development Environment**](#**3.0	development-environment**)
+      * [**4.0	System Specifications**](#**4.0	system-specifications**)
+      * [**4.1	Sign In**](#**4.1	sign-in**)
+      * [**4.2	Add/place orders**](#**4.2	add/place-orders**)
+      * [**4.3	View order and Make Changes**](#**4.3	view-order-and-make-changes**)
+      * [**4.3.1	Change Quantity**](#**4.3.1	change-quantity**)
+      * [**4.3.2	Cancel an Order Line Item**](#**4.3.2	cancel-an-order-line-item**)
+      * [**4.3.3	Add an order line item**](#**4.3.3	add-an-order-line-item**)
+      * [**4.4	Manage items and deals**](#**4.4	manage-items-and-deals**)
+      * [**4.4.1	Add items**](#**4.4.1	add-items**)
+      * [**4.4.2	Add deals**](#**4.4.2	add-deals**)
+      * [**4.4.3	Deactivate/delete items or deals**](#**4.4.3	deactivate/delete-items-or-deals**)
+      * [**4.4.4	Change price of item/deal**](#**4.4.4	change-price-of-item/deal**)
+      * [**4.4.5	Change name of item/deal**](#**4.4.5	change-name-of-item/deal**)
+      * [**4.5	View Orders**](#**4.5	view-orders**)
+      * [**4.5.1	View All Orders**](#**4.5.1	view-all-orders**)
+      * [**4.5.2	View Date Specific Orders**](#**4.5.2	view-date-specific-orders**)
+      * [**4.6	Edit Profile**](#**4.6	edit-profile**)
+      * [**4.6.1	Change password**](#**4.6.1	change-password**)
+      * [** 4.6.2	Change username**](#**-4.6.2	change-username**)
+      * [**4.7	Sign Out**](#**4.7	sign-out**)
+      * [**5.0	Database Analysis**](#**5.0	database-analysis**)
+      * [**5.1	Entity Relationship Diagram**](#**5.1	entity-relationship-diagram**)
+        * [**5.2	Database Schema**](#**5.2	database-schema**)
 
 
 
