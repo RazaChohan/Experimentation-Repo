@@ -4,7 +4,6 @@
 
 Date 10-september-2014
 
-
 
 ##Project Requirement Document
 
@@ -20,19 +19,19 @@ Date 10-september-2014
     * [Requirment Document](#requirment-document)
   * [**Project Requirement Document**](#**project-requirement-document**)
       * [**1.0	Introduction**](#i-introduction)
-      * [**2.0	Business Overview**](#**2.0	business-overview**)
-      * [**3.0	Development Environment**](#**3.0	development-environment**)
-      * [**4.0	System Specifications**](#**4.0	system-specifications**)
-      * [**4.1	Sign In**](#**4.1	sign-in**)
-      * [**4.2	Add/place orders**](#**4.2	add/place-orders**)
-      * [**4.3	View order and Make Changes**](#**4.3	view-order-and-make-changes**)
-      * [**4.3.1	Change Quantity**](#**4.3.1	change-quantity**)
-      * [**4.3.2	Cancel an Order Line Item**](#**4.3.2	cancel-an-order-line-item**)
-      * [**4.3.3	Add an order line item**](#**4.3.3	add-an-order-line-item**)
-      * [**4.4	Manage items and deals**](#**4.4	manage-items-and-deals**)
-      * [**4.4.1	Add items**](#**4.4.1	add-items**)
-      * [**4.4.2	Add deals**](#**4.4.2	add-deals**)
-      * [**4.4.3	Deactivate/delete items or deals**](#**4.4.3	deactivate/delete-items-or-deals**)
+      * [**2.0	Business Overview**](#ii-business-overview)
+      * [**3.0	Development Environment**](#iii-development-environment)
+      * [**4.0	System Specifications**](#iv-system-specifications)
+      * [**4.1	Sign In**](#iv-a-sign-in)
+      * [**4.2	Add/place orders**](#iv-b-add/place-orders)
+      * [**4.3	View order and Make Changes**](#iv-c-view-order-and-make-changes)
+      * [**4.3.1	Change Quantity**](#iv-c-a-change-quantity)
+      * [**4.3.2	Cancel an Order Line Item**](#iv-c-b-cancel-an-order-line-item)
+      * [**4.3.3	Add an order line item**](#iv-c-c-add-an-order-line-item)
+      * [**4.4	Manage items and deals**](#iv-d-manage-items-and-deals)
+      * [**4.4.1	Add items**](#iv-d-a-add-items)
+      * [**4.4.2	Add deals**](#iv-d-b-add-deals)
+      * [**4.4.3	Deactivate/delete items or deals**](#iv-d-c-deactivate/delete-items-or-deals)
       * [**4.4.4	Change price of item/deal**](#**4.4.4	change-price-of-item/deal**)
       * [**4.4.5	Change name of item/deal**](#**4.4.5	change-name-of-item/deal**)
       * [**4.5	View Orders**](#**4.5	view-orders**)
@@ -51,17 +50,17 @@ Date 10-september-2014
 
 #### (I) Introduction
  This document contains the system requirements for Ready2Serve POS. These requirements have been derived from several sources, including meetings with client, demos given to the client by Coeus Solutions .etc. Ready2Serve POS is a console based application, it is intended to be used by the salesman and administrator in order to place orders and manage all items and deals.  
-####**2.0	Business Overview**
+#### (II) Business Overview
 From Business point of view this system will help to improve revenue of the restaurant “Ready2Serve” by automating many important tasks of the restaurant’s drive through. There is no dine in and delivery facilities available. So, the only way to take food is through the window at the drive through passage. And obviously that will be the single point where the customer load would be so; there should be an efficient system which handles all the purchase. 
-####**3.0	Development Environment**
+#### (III) Development Environment
 The tools and technology which will be used for the development of this system: 
 PHP as a programming language and “NetBeans” as an IDE for the coding. 
 The server which we would use is “Apache”.
 The database system which will be used for the application would be the “MySQL”. 
 To design all the diagrams we have used “Visio 2013”.
-####**4.0	System Specifications**
+#### (IV) System Specifications
 We have divided the Basic Flow of Ready2Serve POS in the following modules or specifications, let us evaluate them briefly through the concise description.
-####**4.1	Sign In**
+#### (IV A) Sign In
 
 **User story title: sign in**
 As a **salesman/admin** 
@@ -96,7 +95,7 @@ so that **I can use the fully functional system**
 
 
 
-####**4.2	Add/place orders**
+#### (IV B) Add/place orders
 **User story title: Place Order**
 As a **salesman** 
 I want **to place requested order for a customer** 
@@ -124,7 +123,7 @@ so that **I can generate an order for the customer and system would save this re
 |         |Invalid Quantity 	                     |                                           | |
 	
 
-####**4.3	View order and Make Changes**
+#### (IV C) View order and Make Changes
 **User story title: View Order just requested by the customer**
 As a **salesman** 
 I want to **review the order and make changes in that requested order for a customer** 
@@ -137,7 +136,7 @@ so that **I can generate an accurate order for the customer to avoid trouble in 
 ||||| 
 |1.       |The salesman just added an order line item|	ensure the system shows the proper menu for the different options of changes.	
 
-####**4.3.1	Change Quantity**
+#### (IV C A) Change Quantity
 **User story title: Change of quantity for an order line item**
 As a **salesman** 
 I want to **make changes in the quantity of an order line item just requested by the customer** 
@@ -154,7 +153,7 @@ so that **I can generate an accurate order for the customer to avoid trouble in 
 |2.       |The salesman enters the Invalid new quantity|ensure the rejection message is displayed | |
 |         |                                            |AND prompts to reEnter	| |
 
-####**4.3.2	Cancel an Order Line Item**
+#### (IV C B) Cancel an Order Line Item
 **User story title: Cancel an order line item** 
 As a **salesman** 
 I want to **cancel an order line item from the order just requested by the customer** 
@@ -169,7 +168,7 @@ so that **I can generate an accurate order for the customer to avoid trouble in 
 |2. |The salesman enters the Invalid index no. of the item/deal |ensure the rejection message is displayed||
 |   |                                                           |AND prompts to reEnter	||
 
-####**4.3.3	Add an order line item**
+#### (IV C C) Add an order line item
 **User story title: Add an order line item in the order** 
 As a **salesman** 
 I want to **add more order lines item in the order just requested by the customer**
@@ -184,7 +183,7 @@ so that **I can generate an accurate order for the customer.**
 |2. |The salesman enters the Invalid index no. of the item/deal|ensure the rejection message is displayed        | |
 |   |                                                          |AND prompts to reEnter                           | |	
 
-####**4.4	Manage items and deals**
+#### (IV D) Manage items and deals**
 **User story title: Manage items and deals**
 As an **administrator**
 I want to **Manage(add, edit, inactivate) items and deals **
@@ -196,7 +195,7 @@ so that **Items and deals could be stored in the system.**
 |         |**AND**	                          |**Then** | |
 |1.   |admin is on the main menu |ensure that the control goes to another menu where the different options .i.e add, delete, update are available.	| |
 
-####**4.4.1	Add items** 
+#### (IV D A) Add items 
 User story title: Add items 
 As an administrator
 I want to add items in the database
@@ -225,7 +224,7 @@ so that those specified items would store in the record of available items in th
 	
 
 
-####**4.4.2	Add deals** 
+####(IV D B) Add deals 
 **User story title: Add deals**
 As an **administrator**
 I want to **Manage items and deals** 
@@ -275,7 +274,7 @@ so that **Items and deals could be stored in the system.**
 |         |    Valid Items for that deal          |                      | |
 |         |    InValid unit price	          |                      | |
 
-####**4.4.3	Deactivate/delete items or deals**
+#### (IV D C) Deactivate/delete items or deals
 **User story title: Deactivate items/deals **
 As an **administrator**
 I want to **Manage items and deals **
@@ -292,7 +291,8 @@ so that **Items and deals could be stored in the system.**
 |2.       |- enters the                           |ensure that the rejection message is displayed| |
 |         |    InValid item/deal number	          |And prompt to reEnter | |  	
 
-####**4.4.4	Change price of item/deal**
+
+#### (IV D D )	Change price of item/deal
 **User story title: Change item price**
 As an **administrator**
 I want to **Manage items and deals **
@@ -310,8 +310,8 @@ so that **Items and deals could be stored in the system.**
 |         |    InValid unit price	          |And prompt to reEnter | |	
 
 
-####**4.4.5	Change name of item/deal**
-User story title:  Change item’s name
+#### (IV D E)	Change name of item/deal
+**User story title:  Change item’s name**
 As an administrator
 I want to Manage items and deals 
 so that Items and deals could be stored in the system.
@@ -328,7 +328,7 @@ so that Items and deals could be stored in the system.
 |         |    InValid name	          |And prompt to reEnter | |	
 
 
-####**4.5	View Orders**
+#### (IV E) View Orders
 **User story title: View Orders**
 As an **administrator**
 I want to **View Orders details **
@@ -341,7 +341,7 @@ So that **I come to know about how many orders have been placed by the salesman.
 |||||
 |1.       |admin is on the main menu 	          |ensure that the control goes to another menu where the different options .i.e view all order, view date specific order are available.| |	
 
-####**4.5.1	View All Orders** 
+#### (IV E A) View All Orders 
 **User story title: View All Orders**
 As an **administrator**
 I want to **View All Orders details **
@@ -352,7 +352,7 @@ So that **I come to know that how many total orders till the current date have b
 |         |The administrator has chosen the option to view orders|**When** the user requests to view “all order” ||
 | | | **Then** ensure the system load all the records in the form of pagination on the console	 | |
 
-####**4.5.2	View Date Specific Orders**
+#### (IV E B) View Date Specific Orders
 **User story title: View Orders**
 As an **administrator**
 I want to **view orders details, placed in between specific two dates  **
@@ -376,8 +376,8 @@ So that **I come to know about how many orders have been placed by the salesman 
 |||||
 |5. |And admin does not mention FROM and TO dates|ensure the system load all the records of the current date in the form of pagination on the console.| |	
 
-####**4.6	Edit Profile**
-####**4.6.1	Change password**
+#### (IV F) Edit Profile
+#### (IV F A)	Change password
  User story title: Change password
 As a salesman/admin 
 I want to change my current password of the system 
@@ -409,7 +409,7 @@ So that my system get secured from unauthorized access
 |         |Where required data type for all  is varchar	|                                          | |
 
 
-####** 4.6.2	Change username**
+#### (IV F B) Change username
 **User story title: Change username**
 As a **salesman/admin** 
 I want to **change my current username of the system **
@@ -441,7 +441,7 @@ So that **my system get secured from unauthorized access**
 |         |Where required data type for all is varchar|                                       | |	
 
 
-####**4.7	Sign Out**
+####  (IV G) Sign Out
 
 **User story title: sign out **
 As a **salesman/admin** 
@@ -456,7 +456,7 @@ So that **no any unauthorized person can use my account**
 |         |at every section the user has an option to log out from the system|ensure the system is deactivated| |
 |         |                                         |AND the control of the CMD comes out of the system | |	
 
-####**5.0	Database Analysis**
+#### (V A) Database Analysis
 The database system which we would use most preferably is the MySQL.
 “MySQL” have many good reasons to use in this project. 
 Tested with a broad range of different compilers.
@@ -466,7 +466,8 @@ Uses multi-layered server design with independent modules.
 Uses a very fast thread-based memory allocation system.
 Executes very fast joins using an optimized nested-loop join.
 Implements SQL functions using a highly optimized class library that should be as fast as possible.   
-####**5.1	Entity Relationship Diagram**
+
+#### (V B) Entity Relationship Diagram
 For the entity relationship diagram we have used the Chen one model as a standard. And we have used MS Visio to design that.
 It is the logical flow of our system just at the abstract level.
  
