@@ -16,33 +16,6 @@ Date 10-september-2014
 
 
 ####**Table of Contents**
-Table of Contents	iii
-1.0	 Introduction	1
-2.0	  Business Overview	1
-3.0	  Development Environment	1
-4.0	  System Specifications	1\l "
-4.1	  Sign In	1
-4.2	  Add/place order	2
-4.3	  View order and make changes	3
-4.3.1 Change Quantity	3
-4.3.2 Cancel an Order Line Item	4
-4.3.3 Add an Order Line Item	4
-4.4	  Manage Items and Deals	5
-4.4.1 Add Items	5
-4.4.2 Add Deals	6
-4.4.3 DeActivate/Delete Items or Deals	7
-4.4.4 Change Price of Item/Deal	8
-4.4.5 Change Name of Item/Deal	8
-4.5	  View Orders	9
-4.5.1 View All Orders	9
-4.5.2 View Date Specific Orders	10
-4.6	   Edit Profile	11
-4.6.1 Change Password	11
-4.6.2 Change Username	12
-4.7     Sign Out	13
-5.0	Database Analysis	14
-5.1	Entity Relationship Diagram	14
-5.2	Database Schema	16
 
 
 
