@@ -44,8 +44,8 @@ Date 10-september-2014
       * [** 4.6.2	Change username**](#**-4.6.2	change-username**)
       * [**4.7	Sign Out**](#**4.7	sign-out**)
       * [**5.0	Database Analysis**](#**5.0	database-analysis**)
-      * [**5.1	Entity Relationship Diagram**](#**5.1	entity-relationship-diagram**)
-        * [**5.2	Database Schema**](#database-schema)
+      * [**5.1	Entity Relationship Diagram**](#**5.1-entity-relationship-diagram**)
+      * [**5.2 Database Schema**](#database-schema)
 
 
 
