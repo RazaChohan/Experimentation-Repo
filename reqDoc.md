@@ -57,9 +57,9 @@ From Business point of view this system will help to improve revenue of the rest
 * **PHP** as a programming language and **NetBeans** as an IDE for the coding. 
 * The server which we would use is **Apache**.
 * The database system which will be used for the application would be the **MySQL**. 
-* To design all the diagrams we have used **Visio 2013**.
+* To design all the diagrams we have used **Visio 2013**.  <br/>
 ####**4.0	System Specifications**
-We have divided the Basic Flow of Ready2Serve POS in the following modules or specifications, let us evaluate them briefly through the concise description.
+We have divided the Basic Flow of Ready2Serve POS in the following modules or specifications, let us evaluate them briefly through the concise description.  <br/>
 ####**4.1	Sign In**
 
 **User story title: sign in**
@@ -178,8 +178,10 @@ so that **I can generate an accurate order for the customer.**
 |---------|:------------------------------------- |:------------------------------------|:--------:|
 |         |The salesman is on the section to add more item/deal|**When** the salesman requests to add that item/deal||
 |         |**AND**	                                       |**Then**  | |
+|||||
 |1. |The salesman enters the valid index no. of the item/deal|ensure the addition of that requested item or deal | |
 |         |                                                  |AND prompt to make further changes	         | |
+|||||
 |2. |The salesman enters the Invalid index no. of the item/deal|ensure the rejection message is displayed        | |
 |   |                                                          |AND prompts to reEnter                           | |	
 
@@ -193,6 +195,7 @@ so that **Items and deals could be stored in the system.**
 |---------|:------------------------------------- |:------------------------------------|:--------:|
 |         |The admin has logged in to the system  |**When** the admin requests to manage items and deals | |
 |         |**AND**	                          |**Then** | |
+|||||
 |1.   |admin is on the main menu |ensure that the control goes to another menu where the different options .i.e add, delete, update are available.	| |
 
 ####**4.4.1	Add items** 
@@ -455,41 +458,42 @@ So that **no any unauthorized person can use my account**
 |         |at every section the user has an option to log out from the system|ensure the system is deactivated| |
 |         |                                         |AND the control of the CMD comes out of the system | |	
 
+<br/>
 ####**5.0	Database Analysis**
-The database system which we would use most preferably is the MySQL.
-“MySQL” have many good reasons to use in this project. 
-Tested with a broad range of different compilers.
-Works on many different platforms.
-Provides transactional and nontransactional storage engines.
-Uses multi-layered server design with independent modules.
-Uses a very fast thread-based memory allocation system.
-Executes very fast joins using an optimized nested-loop join.
-Implements SQL functions using a highly optimized class library that should be as fast as possible.   
+The database system which we would use most preferably is the **MySQL**.  <br/>
+“MySQL” have many good reasons to use in this project.  <br/> 
+* Tested with a broad range of different compilers.
+* Works on many different platforms.
+* Provides transactional and nontransactional storage engines.
+* Uses multi-layered server design with independent modules.
+* Uses a very fast thread-based memory allocation system.
+* Executes very fast joins using an optimized nested-loop join.
+* Implements SQL functions using a highly optimized class library that should be as fast as possible.    <br/>
 ####**5.1	Entity Relationship Diagram**
-For the entity relationship diagram we have used the Chen one model as a standard. And we have used MS Visio to design that.
-It is the logical flow of our system just at the abstract level.
+For the entity relationship diagram we have used the Chen one model as a standard. And we have used MS Visio to design that.  <br/>
+It is the logical flow of our system just at the abstract level.  <br/>
  
 
 
-Important point about this ERD is that there is a week entity “OrderLineItem” that’s why it has marked as double lined entity.
+Important point about this ERD is that there is a week entity “OrderLineItem” that’s why it has marked as double lined entity.   <br/>
 
 
 #####**5.2	Database Schema**
  
-Here is given all the tables which we will generate through a DBscript to store information about all related contents of the system.
-That script would be used by anyone to generate data base and its tables. 
+Here is given all the tables which we will generate through a DBscript to store information about all related contents of the system.  <br/>
+That script would be used by anyone to generate data base and its tables.  <br/> 
 
  ![enter image description here](https://raw.github.com/RazaChohan/Experimentation-Repo/sanaNewBranch/diagrams/Database%20Schema%20Diagram.png)
 
-As we can see that there would be five tables in the DB schema of Ready2Serve POS.
-**Person**
-person_id
-username
-password
-name 
-address
-phone_number
-person_type 
+As we can see that there would be five tables in the DB schema of Ready2Serve POS.  <br/>
+**Person**   <br/>
+person_id    <br/>
+username     <br/>
+password     <br/>
+name         <br/>
+address      <br/>
+phone_number     <br/>
+person_type      <br/>
 **Order**
 order_id
 salesman_id
