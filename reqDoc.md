@@ -22,28 +22,28 @@ Table of Contents	iii              <br/>
 3.0	  Development Environment	1 <br/>
 4.0	  System Specifications	1\l "      <br/>
 4.1	  Sign In	1                  <br/>
-4.2	  Add/place order	2
-4.3	  View order and make changes	3
-4.3.1 Change Quantity	3
-4.3.2 Cancel an Order Line Item	4
-4.3.3 Add an Order Line Item	4
-4.4	  Manage Items and Deals	5
-4.4.1 Add Items	5
-4.4.2 Add Deals	6
-4.4.3 DeActivate/Delete Items or Deals	7
-4.4.4 Change Price of Item/Deal	8
-4.4.5 Change Name of Item/Deal	8
-4.5	  View Orders	9
-4.5.1 View All Orders	9
-4.5.2 View Date Specific Orders	10
-4.6	   Edit Profile	11
-4.6.1 Change Password	11
-4.6.2 Change Username	12
-4.7     Sign Out	13
-5.0	Database Analysis	14
-5.1	Entity Relationship Diagram	14
-5.2	Database Schema	16
-
+4.2	  Add/place order	2          <br/>
+4.3	  View order and make changes	3  <br/>
+4.3.1 Change Quantity	3                  <br/>
+4.3.2 Cancel an Order Line Item	4          <br/>
+4.3.3 Add an Order Line Item	4          <br/>
+4.4	  Manage Items and Deals	5  <br/>
+4.4.1 Add Items	5                          <br/>
+4.4.2 Add Deals	6                          <br/>
+4.4.3 DeActivate/Delete Items or Deals	7  <br/>
+4.4.4 Change Price of Item/Deal	8          <br/>
+4.4.5 Change Name of Item/Deal	8          <br/>
+4.5	  View Orders	9                  <br/>
+4.5.1 View All Orders	9                  <br/>
+4.5.2 View Date Specific Orders	10         <br/>
+4.6	   Edit Profile	11                 <br/>
+4.6.1 Change Password	11                 <br/>
+4.6.2 Change Username	12                 <br/>
+4.7     Sign Out	13                 <br/>
+5.0	Database Analysis	14         <br/>
+5.1	Entity Relationship Diagram	14 <br/>
+5.2	Database Schema	16                 <br/>
+ 
 
 
 
@@ -53,11 +53,11 @@ Table of Contents	iii              <br/>
 ####**2.0	Business Overview**
 From Business point of view this system will help to improve revenue of the restaurant “Ready2Serve” by automating many important tasks of the restaurant’s drive through. There is no dine in and delivery facilities available. So, the only way to take food is through the window at the drive through passage. And obviously that will be the single point where the customer load would be so; there should be an efficient system which handles all the purchase. 
 ####**3.0	Development Environment**
-The tools and technology which will be used for the development of this system: 
-PHP as a programming language and “NetBeans” as an IDE for the coding. 
-The server which we would use is “Apache”.
-The database system which will be used for the application would be the “MySQL”. 
-To design all the diagrams we have used “Visio 2013”.
+**The tools and technology** which will be used for the development of this system: 
+* **PHP** as a programming language and **NetBeans** as an IDE for the coding. 
+* The server which we would use is **Apache**.
+* The database system which will be used for the application would be the **MySQL**. 
+* To design all the diagrams we have used **Visio 2013**.
 ####**4.0	System Specifications**
 We have divided the Basic Flow of Ready2Serve POS in the following modules or specifications, let us evaluate them briefly through the concise description.
 ####**4.1	Sign In**
