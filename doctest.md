@@ -34,9 +34,9 @@ Date 10-september-2014
       * [**4.4.3	Deactivate Items or Deals**](#iv-d-c-deactivate-items-or-deals)
       * [**4.4.4	Change Price of Item or Deal**](#4.4.4iv-d-d-change-price-of-item-or-deal)
       * [**4.4.5	Change Name of Item or Deal**](#4.4.5iv-d-e-change-name-of-item-or-deal)
-      * [**4.5	View Orders**](#4.5	view-orders)
-      * [**4.5.1	View All Orders**](#4.5.1	view-all-orders)
-      * [**4.5.2	View Date Specific Orders**](#4.5.2	view-date-specific-orders)
+      * [**4.5	View Orders**](#4.5iv-e-view-orders)
+      * [**4.5.1	View All Orders**](#iv-e-a-view-all-orders)
+      * [**4.5.2	View Date Specific Orders**](#iv-e-b-view-date-specific-orders)
       * [**4.6	Edit Profile**](#4.6	edit-profile)
       * [**4.6.1	Change password**](#4.6.1	change-password)
       * [** 4.6.2	Change username**](#4.6.2	change-username)
@@ -328,7 +328,7 @@ so that Items and deals could be stored in the system.
 |         |    InValid name	          |And prompt to reEnter | |	
 
 
-#### (IV E) View Orders
+#### (IV E) View Orders 
 **User story title: View Orders**
 As an **administrator**
 I want to **View Orders details **
