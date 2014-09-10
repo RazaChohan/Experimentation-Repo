@@ -457,59 +457,64 @@ So that **no any unauthorized person can use my account**
 |         |                                         |AND the control of the CMD comes out of the system | |	
 
 #### (V) Database Analysis
-The database system which we would use most preferably is the MySQL.
-“MySQL” have many good reasons to use in this project. 
-Tested with a broad range of different compilers.
-Works on many different platforms.
-Provides transactional and nontransactional storage engines.
-Uses multi-layered server design with independent modules.
-Uses a very fast thread-based memory allocation system.
-Executes very fast joins using an optimized nested-loop join.
-Implements SQL functions using a highly optimized class library that should be as fast as possible.   
+The database system which we would use most preferably is the **MySQL**.  <br/>
+“MySQL” have many good reasons to use in this project.  <br/> 
+* Tested with a broad range of different compilers.
+* Works on many different platforms.
+* Provides transactional and nontransactional storage engines.
+* Uses multi-layered server design with independent modules.
+* Uses a very fast thread-based memory allocation system.
+* Executes very fast joins using an optimized nested-loop join.
+* Implements SQL functions using a highly optimized class library that should be as fast as possible.    <br/>
 
 #### (V A) Entity Relationship Diagram
-For the entity relationship diagram we have used the Chen one model as a standard. And we have used MS Visio to design that.
-It is the logical flow of our system just at the abstract level.
+For the entity relationship diagram we have used the Chen one model as a standard. And we have used MS Visio to design that.  <br/>
+It is the logical flow of our system just at the abstract level.  <br/>
  
+![enter image description here](https://raw.github.com/RazaChohan/Experimentation-Repo/sanaNewBranch/diagrams/Extended-ERD.png)
 
-Important point about this ERD is that there is a week entity “OrderLineItem” that’s why it has marked as double lined entity.
+Important point about this ERD is that there is a week entity “OrderLineItem” that’s why it has marked as double lined entity.   <br/>
 
 
 #### (V B) Database Schema
  
-Here is given all the tables which we will generate through a DBscript to store information about all related contents of the system.
-That script would be used by anyone to generate data base and its tables. 
-As we can see that there would be five tables in the DB schema of Ready2Serve POS.
-Person
-person_id
-username
-password
-name 
-address
-phone_number
-person_type 
-Order
-order_id
-salesman_id
-order_datetime
-Order_Line_Item
-order_line_item_id
-order_id
-product_id
-unit_price
-quantity
-discount 
-Product
-product_id
-product_type
-is_product_available
-is_product_orderable
-product_description
-product_price
-Product_Contains_Product
-product_id
-contained_product_id
-quantity 
+Here is given all the tables which we will generate through a DBscript to store information about all related contents of the system.  <br/>
+That script would be used by anyone to generate data base and its tables.  <br/> 
+
+ ![enter image description here](https://raw.github.com/RazaChohan/Experimentation-Repo/sanaNewBranch/diagrams/Database%20Schema%20Diagram.png)
+
+As we can see that there would be five tables in the DB schema of Ready2Serve POS.  <br/>
+**Person**   <br/>
+person_id    <br/>
+username     <br/>
+password     <br/>
+name         <br/>
+address      <br/>
+phone_number     <br/>
+person_type      <br/>
+**Order**           <br/>
+order_id           <br/>
+salesman_id           <br/>
+order_datetime           <br/>
+**Order_Line_Item**           <br/>
+order_line_item_id           <br/>
+order_id           <br/>
+product_id           <br/>
+unit_price           <br/>
+quantity           <br/>
+discount            <br/>
+**Product**           <br/>
+product_id           <br/>
+product_type           <br/>
+is_product_available           <br/>
+is_product_orderable           <br/>
+product_description           <br/>
+product_price           <br/>
+**Product_Contains_Product**           <br/>
+product_id           <br/>
+contained_product_id           <br/>
+quantity            <br/>
+
 
 
 **Note:**
