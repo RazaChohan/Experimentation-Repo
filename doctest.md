@@ -23,7 +23,7 @@ Date 10-september-2014
       * [**3.0	Development Environment**](#iii-development-environment)
       * [**4.0	System Specifications**](#iv-system-specifications)
       * [**4.1	Sign In**](#iv-a-sign-in)
-      * [**4.2	Add/place orders**](#iv-b-add/place-orders)
+      * [**4.2	Place orders**](#iv-b-place-orders)
       * [**4.3	View order and Make Changes**](#iv-c-view-order-and-make-changes)
       * [**4.3.1	Change Quantity**](#iv-c-a-change-quantity)
       * [**4.3.2	Cancel an Order Line Item**](#iv-c-b-cancel-an-order-line-item)
@@ -95,7 +95,7 @@ so that **I can use the fully functional system**
 
 
 
-#### (IV B) Add/place orders
+#### (IV B) Place orders
 **User story title: Place Order**
 As a **salesman** 
 I want **to place requested order for a customer** 
