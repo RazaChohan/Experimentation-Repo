@@ -16,8 +16,6 @@ Date 11-september-2014
 
 ####Table of Contents
  * [Ready2Serve POS](#ready2serve-pos)
-    * [Requirment Document](#requirment-document)
-  * [**Project Requirement Document**](#**project-requirement-document**)
       * [**1.0	Introduction**](#i-introduction)
       * [**2.0	Business Overview**](#ii-business-overview)
       * [**3.0	Development Environment**](#iii-development-environment)
@@ -276,9 +274,9 @@ so that **Items and deals could be stored in the system.**       <br/>
 |         |    InValid unit price	          |                      | |
 
 #### (IV D C) Deactivate Items or Deals
-**User story title: Deactivate items/deals **       <br/>
+**User story title: Deactivate items/deals**       <br/>
 As an **administrator**       <br/>
-I want to **Manage items and deals **       <br/>
+I want to **Manage items and deals**       <br/>
 so that **Items and deals could be stored in the system.**       <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
@@ -296,7 +294,7 @@ so that **Items and deals could be stored in the system.**       <br/>
 #### (IV D D )	Change Price of Item or Deal
 **User story title: Change item price**       <br/>
 As an **administrator**       <br/>
-I want to **Manage items and deals **       <br/>
+I want to **Manage items and deals**       <br/>
 so that **Items and deals could be stored in the system.**       <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
@@ -332,7 +330,7 @@ so that **Items and deals could be stored in the system.**       <br/>
 #### (IV E) View Orders 
 **User story title: View Orders**       <br/>
 As an **administrator**       <br/>
-I want to **View Orders details **       <br/>
+I want to **View Orders details**       <br/>
 So that **I come to know about how many orders have been placed by the salesman.**       <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
@@ -345,7 +343,7 @@ So that **I come to know about how many orders have been placed by the salesman.
 #### (IV E A) View All Orders 
 **User story title: View All Orders**       <br/>
 As an **administrator**       <br/>
-I want to **View All Orders details **       <br/>
+I want to **View All Orders details**       <br/>
 So that **I come to know that how many total orders till the current date have been placed by the salesman.**       <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
@@ -356,7 +354,7 @@ So that **I come to know that how many total orders till the current date have b
 #### (IV E B) View Date Specific Orders
 **User story title: View Orders**       <br/>
 As an **administrator**       <br/>
-I want to **view orders details, placed in between specific two dates  **       <br/>
+I want to **view orders details, placed in between specific two dates**       <br/>
 So that **I come to know about how many orders have been placed by the salesman in that specific portion of time.**       <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
@@ -413,7 +411,7 @@ So that **my system get secured from unauthorized access**       <br/>
 #### (IV F B) Change username
 **User story title: Change username**       <br/>
 As a **salesman/admin**        <br/>
-I want to **change my current username of the system **       <br/>
+I want to **change my current username of the system**       <br/>
 So that **my system get secured from unauthorized access**       <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
@@ -446,7 +444,7 @@ So that **my system get secured from unauthorized access**       <br/>
 
 **User story title: sign out **       <br/>
 As a **salesman/admin**        <br/>
-I want to **sign out from the system **       <br/>
+I want to **sign out from the system**       <br/>
 So that **no any unauthorized person can use my account**       <br/>
 
 |**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
