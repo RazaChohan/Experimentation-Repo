@@ -8,3 +8,5 @@
 * At once the items/deals are added in the order and an invoice is generated, any changes cannot be made in that order
 
 * Another user of the system is administrator who can view all the sales, items, deals and can manage them.
+
+* This line should be in featjames branch
