@@ -13,6 +13,14 @@ gitadd: {
       }
     }
   },
+   shell: {
+        options: {
+            stderr: false
+        },
+        target: {
+            command: 'git commit'
+        }
+    },
 gitcommit: {
     your_target: {
       options: {
@@ -45,6 +53,7 @@ gitpush: {
 
   // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-git');
+   grunt.loadNpmTasks('grunt-shell');
 
   // Default task(s).
     grunt.registerTask('default',['git']);
