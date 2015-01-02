@@ -27,6 +27,13 @@ gitcommit: {
       ]
     }
   },
+  gitpull: {
+    your_target: {
+      options: {
+
+      }
+    }
+  },
 gitpush: {
     your_target: {
       options: {
@@ -41,7 +48,7 @@ gitpush: {
 
   // Default task(s).
     grunt.registerTask('default',['git']);
-   grunt.registerTask('git',['gitadd','gitcommit','gitpush']);
+   grunt.registerTask('git',['gitadd','gitcommit','gitpull','gitpush']);
 
 
 };
