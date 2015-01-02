@@ -1,0 +1,22 @@
+{
+  "name": "Experimentation-Repo",
+  "version": "0.0.0",
+  "description": "“Experimentation Repo” is kind of a private Repository made only for Coeus Bootcamp test activities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RazaChohan/Experimentation-Repo.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/RazaChohan/Experimentation-Repo/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-git": "~0.3.2"
+  }
+}
