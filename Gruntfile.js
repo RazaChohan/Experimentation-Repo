@@ -41,7 +41,7 @@ gitpush: {
 
   // Default task(s).
     grunt.registerTask('default',['git']);
-   grunt.registerTask('git',['gitpush'],['gitadd'],['gitcommit']);
+   grunt.registerTask('git',['gitadd','gitcommit','gitpush']);
 
 
 };
